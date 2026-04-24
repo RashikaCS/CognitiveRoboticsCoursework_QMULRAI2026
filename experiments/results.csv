@@ -1,0 +1,16 @@
+stage,observation,small_prob,large_prob,prediction,true_target,correct,experiment,description
+gaze,0,0.6,0.4,0,0,1,all_cues_correct_small,All cues correctly indicate the small object.
+hand,0,0.8467153284671534,0.1532846715328467,0,0,1,all_cues_correct_small,All cues correctly indicate the small object.
+trajectory,0,0.9851509250243428,0.014849074975657267,0,0,1,all_cues_correct_small,All cues correctly indicate the small object.
+gaze,1,0.4,0.6,1,0,0,gaze_wrong_hand_trajectory_correct_small,"Gaze is misleading, but hand and trajectory correctly indicate the small object."
+hand,0,0.7433628318584071,0.2566371681415929,0,0,1,gaze_wrong_hand_trajectory_correct_small,"Gaze is misleading, but hand and trajectory correctly indicate the small object."
+trajectory,0,0.9773918741808649,0.022608125819135013,0,0,1,gaze_wrong_hand_trajectory_correct_small,"Gaze is misleading, but hand and trajectory correctly indicate the small object."
+gaze,1,0.4,0.6,1,1,1,gaze_correct_hand_wrong_trajectory_correct_large,"Gaze and trajectory indicate large object, hand is misleading."
+hand,0,0.7433628318584071,0.2566371681415929,0,1,0,gaze_correct_hand_wrong_trajectory_correct_large,"Gaze and trajectory indicate large object, hand is misleading."
+trajectory,1,0.1069482288828339,0.8930517711171662,1,1,1,gaze_correct_hand_wrong_trajectory_correct_large,"Gaze and trajectory indicate large object, hand is misleading."
+gaze,1,0.4,0.6,1,1,1,all_cues_correct_large,All cues correctly indicate the large object.
+hand,1,0.1532846715328467,0.8467153284671534,1,1,1,all_cues_correct_large,All cues correctly indicate the large object.
+trajectory,1,0.014849074975657267,0.9851509250243428,1,1,1,all_cues_correct_large,All cues correctly indicate the large object.
+gaze,1,0.4,0.6,1,0,0,gaze_and_hand_wrong_trajectory_correct_small,"Gaze and hand are misleading, but trajectory correctly indicates small object."
+hand,1,0.1532846715328467,0.8467153284671534,1,0,0,gaze_and_hand_wrong_trajectory_correct_small,"Gaze and hand are misleading, but trajectory correctly indicates small object."
+trajectory,0,0.8447521865889212,0.15524781341107882,0,0,1,gaze_and_hand_wrong_trajectory_correct_small,"Gaze and hand are misleading, but trajectory correctly indicates small object."
