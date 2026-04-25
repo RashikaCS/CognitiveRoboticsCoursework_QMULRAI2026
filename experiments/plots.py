@@ -86,7 +86,7 @@ def main():
     Load experiment results and generate all plots.
     """
 
-    df = pd.read_csv("results/results.csv")
+    df = pd.read_csv("experiments/results.csv")
 
     plot_belief_over_time(df)
     plot_final_accuracy(df)

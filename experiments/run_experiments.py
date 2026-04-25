@@ -49,7 +49,7 @@ def main():
     os.makedirs("results/figures", exist_ok=True)
 
     # Save structured results
-    results_path = "results/results.csv"
+    results_path = "experiments/results.csv"
     df.to_csv(results_path, index=False)
 
     # Save readable log file
