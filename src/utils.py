@@ -1,6 +1,22 @@
 def target_label(value):
-    return "Small Object" if value == 0 else "Large Object"
+    """
+    Convert numeric prediction to human-readable label
+    """
+    if value == 0:
+        return "Small Object"
+    elif value == 1:
+        return "Large Object"
+    else:
+        return "Unknown"
 
 
 def cue_label(value):
-    return "small" if value == 0 else "large"
+    """
+    Convert numeric cue to readable label
+    """
+    if value == 0:
+        return "small"
+    elif value == 1:
+        return "large"
+    else:
+        return "unknown"
